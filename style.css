@@ -27,6 +27,13 @@ a:hover {
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
+.présentation {
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px double #F3976C;
+}
+
 .bloc {
     width: 100%;
     clear: both;
@@ -362,6 +369,29 @@ a:hover {
     z-index: 2;
 }
 
+.navbar-row {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-header {
+    border-bottom: 2px double #F3976C;
+}
+
+.comment {
+    font-size: 18px;
+    text-align: center;
+}
+
+.name {
+    font-size: 10px;
+}
+
+.underline {
+    border-bottom: 2px solid #F3976C;
+    font-weight: bold;
+}
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -678,6 +708,7 @@ a {
 
 p {
     font-size: 11px;
+    margin-bottom: 20px;
 }
 
 .tight-width-whitespace {
@@ -697,11 +728,6 @@ p {
     padding: 12px 28px 12px 28px;
     font-size: 16px;
     font-weight: 700;
-}
-
-.social {
-    max-width: 400px;
-    margin: auto auto auto auto;
 }
 
 h2 {
