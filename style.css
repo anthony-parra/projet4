@@ -38,7 +38,7 @@ a:hover {
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
-    padding: 0 50px;
+    padding: 0 0px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -48,11 +48,16 @@ a:hover {
 
 .bloc .container {
     padding-left: 0;
-    padding-right: 0;
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 60px 0px;
+}
+
+.arrow {
+    display: flex;
+    justify-content: center;
+    color: black;
 }
 
 .bloc-md {
@@ -60,7 +65,7 @@ a:hover {
 }
 
 .bloc-sm {
-    padding: 20px 50px;
+    padding: 20px 0px;
 }
 
 .bg-center,
@@ -295,27 +300,29 @@ a:hover {
 }
 
 .navbar {
-    margin-bottom: 0;
-    z-index: 1;
+    display: flex;
+    justify-content: center;
 }
 
 .navbar-brand {
-    height: auto;
-    padding: 3px 15px;
-    font-size: 25px;
-    font-weight: normal;
-    font-weight: 600;
-    line-height: 44px;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    border-bottom: 2px double #F3976C;
 }
 
-.navbar-brand img {
-    max-height: 200px;
-    margin: 0 5px 0 0;
-    display: inline;
+#form_1 {
+    margin-left: 50px;
 }
 
-.navbar-brand img[src$=svg] {
-    min-width: 100px;
+.form-group {
+    padding-bottom: 10px;
+}
+
+.adresse {
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 .nav-center .navbar-brand img {
@@ -375,6 +382,10 @@ a:hover {
 }
 
 .navbar-header {
+    border-bottom: 2px double #F3976C;
+}
+
+.underline {
     border-bottom: 2px double #F3976C;
 }
 
@@ -468,11 +479,6 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
-}
-
-.mg-lg {
-    margin-top: 10px;
-    margin-bottom: 40px;
 }
 
 .btn {
@@ -681,11 +687,6 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
-}
-
-.container {
-    max-width: 1000px;
 }
 
 .hero-bloc-text {
@@ -703,16 +704,6 @@ a {
     text-align: center;
     font-weight: lighter;
     max-width: 520px;
-    margin: auto auto auto auto;
-}
-
-p {
-    font-size: 11px;
-    margin-bottom: 20px;
-}
-
-.tight-width-whitespace {
-    max-width: 600px;
     margin: auto auto auto auto;
 }
 
@@ -748,10 +739,6 @@ h3 {
     box-shadow: 0px 0px 0px #000000;
 }
 
-h1 {
-    color: #333333!important;
-}
-
 h4 {
     color: #333333!important;
 }
@@ -763,6 +750,13 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
 }
 
 .portfolio-thumb {
@@ -801,7 +795,8 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF;
+    text-align: center;
 }
 
 .btn-atomic-tangerine {
@@ -864,7 +859,6 @@ h4 {
     .bloc-tile-3.full-width-bloc .container,
     .bloc-tile-4.full-width-bloc .container {
         padding-left: 0;
-        padding-right: 0;
     }
 }
 
