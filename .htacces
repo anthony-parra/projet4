@@ -14,7 +14,7 @@ Header set Cache-Control "max-age=7200, public"
 Header unset Cache-Control
 </FilesMatch>
 </IfModule>
-# END Cache-Control Headers
+# END Cache-Control Body
 
 # BEGIN Expires Body
 <IfModule mod_expires.c>
@@ -30,4 +30,4 @@ ExpiresByType application/x-shockwave-flash "access plus 1 month"
 ExpiresByType image/x-icon "access plus 1 year"
 ExpiresDefault "access plus 2 days"
 </IfModule>
-# END Expires Headers
+# END Expires Body
