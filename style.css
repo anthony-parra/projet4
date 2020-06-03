@@ -19,7 +19,7 @@ a:hover {
 }
 
 .row {
-    margin: 0px
+    margin: 0px;
 }
 
 #page-loading-blocs-notifaction {
@@ -368,6 +368,12 @@ a:hover {
 
 .underline {
     border-bottom: 2px double #F3976C;
+}
+
+.container-bloc-sm {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
 .comment {
